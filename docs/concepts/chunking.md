@@ -41,7 +41,7 @@ The `BaseChunker` base class API defines that any chunker should provide the fol
 
     - If you are using the `docling` package, you can import as follows:
         ```python
-        from docling.chunking import HybridChunker
+        from docling_core.transforms.chunker.hybrid_chunker import HybridChunker
         ```
     - If you are only using the `docling-core` package, you must ensure to install
         the `chunking` extra if you want to use HuggingFace tokenizers, e.g.
